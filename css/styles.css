@@ -18,13 +18,6 @@ body{
   overflow: auto;
 }
 
-#top .card .card-image{
-  min-height: 200px;
-  max-height: 330px;
-  overflow: hidden;
-}
-
-
  .card .card-title{
   font-size: 2rem;
 }
@@ -66,7 +59,13 @@ body{
   }
 
   #top .card .card-image{
-    max-height: 290px;
+    max-height: 295px;
+    overflow: hidden;
+  }
+
+  #last .card .card-image{
+    max-height: 295px;
+    overflow: hidden;
   }
 }
 
@@ -74,9 +73,9 @@ body{
 
 @media (min-width: 1140px){
   #top .card .card-image{
-    max-height: auto;
-
-
+    max-height: 315px;
   }
-
+  #last .card .card-image{
+    max-height: 315px;
+  }
 }
