@@ -11,7 +11,9 @@
 body{
   background-color: #f5f5f5;
 }
-
+img{
+  width: 100%;
+}
 .card .card-action {
   border-top: 0;
   color: grey;
@@ -28,18 +30,20 @@ span .card-action {
   margin-top: 50px;
 }
 
-/*@media (min-width: 600px){
-  .card.horizontal.card-image{
+@media (min-width: 600px){
+  .card.horizontal{
     width: 100%;
+    display: block;
     clear: both;
   }
+  .card.horizontal .card-image {
+      max-width: 100%;
+    }
+  /*.card.card-image img{
+    max-width: 100%;
+    width: 100%;
+    display: block;
+    border: 10px solid red;
+  }*/
 
-  .card.horizontal {
-    position: inherit;
-
-  }
-  .card.card-stacked{
-    position: inherit;
-
-  }
-}*/
+}
