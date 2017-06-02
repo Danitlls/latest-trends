@@ -26,10 +26,14 @@ body{
   border-top: 0;
   color: white;
   padding: 0 0 5px 10px;
-
-
+}
+.material-icons {
+  padding-top: 10px;
 }
 
+.button-collapse {
+  padding: 20px;
+}
 .card .card-text .card-body h5{
   font-size: 1.2rem;
   text-align: center;
