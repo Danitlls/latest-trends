@@ -43,16 +43,19 @@ h4{
 }
 .card-body .card-action {
   font-size: .8rem;
-  position:absolute;
-  bottom:2px;
+  position: absolute;
+  bottom: 2px;
 }
 .page-footer{
-  color:white;
+  color: white;
   font-size: .8rem;
   text-align: center;
 }
 .page-footer a{
   color: lightgrey;
+}
+.page-footer a:hover{
+  color: white;
 }
 
 @media (min-width: 600px) {
@@ -86,13 +89,13 @@ h4{
 @media (min-width: 980px){
   #top .card .card-image{
     max-height: 100%;
-    height: 270px;
+    height: 280px;
   }
   #last .card .card-image{
     max-height: 100%;
-    height: 270px;
+    height: 280px;
   }
   .card.horizontal{
-    min-height: 270px;
+    min-height: 280px;
   }
 }

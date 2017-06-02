@@ -17,6 +17,10 @@
 
 * Feel free to reach out with suggestions.
 
+## Known bugs
+
+* Use fixed units for big image containers for medium and large screens (To be able to change image position, from left to top)
+
 ## Technologies Used
 
 **Main Languages used:**
@@ -26,7 +30,7 @@
 * JS
 
 ### Github Pages link
-[Home Decoration e-shop](https://danitlls.github.io/last-trends/)
+[Latest Trends](https://danitlls.github.io/latest-trends/)
 
 
 ## License
