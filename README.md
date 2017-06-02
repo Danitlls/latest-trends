@@ -1,4 +1,4 @@
-# _Last Trends_
+# _Latest Trends_
 
 #### By **Daniela Trulls, Friday, June 2nd 2017**
 
@@ -15,11 +15,7 @@
 
 ## Support and contact details
 
-* Feel free to reach out with suggestions.
-
-## Known bugs
-
-* Use fixed units for big image containers for medium and large screens (To be able to change image position, from left to top)
+* Feel free to reach out with suggestions
 
 ## Technologies Used
 
