@@ -1,0 +1,45 @@
+/*@font-face {
+  src: url(../fonts/Roboto-Bold.woff);
+  font-family: 'Roboto';
+}*/
+
+*{
+  box-sizing: border-box;
+  /*font-family: "Roboto";*/
+}
+
+body{
+  background-color: #f5f5f5;
+}
+
+.card .card-action {
+  border-top: 0;
+  color: grey;
+  padding: 0;
+}
+span .card-action {
+  color: white;
+  font-size: .8em;
+}
+
+.card-content .card-action {
+  /*color: grey;*/
+  font-size: .8em;
+  margin-top: 50px;
+}
+
+/*@media (min-width: 600px){
+  .card.horizontal.card-image{
+    width: 100%;
+    clear: both;
+  }
+
+  .card.horizontal {
+    position: inherit;
+
+  }
+  .card.card-stacked{
+    position: inherit;
+
+  }
+}*/
