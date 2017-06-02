@@ -6,31 +6,50 @@
 *{
   box-sizing: border-box;
   /*font-family: "Roboto";*/
+  font-size: 120%;
 }
-
+html{
+  line-height: 1;
+}
 body{
   background-color: #f5f5f5;
 }
-img{
-  width: 100%;
+.card {
+  overflow: auto;
+}
+
+#top .card .card-image{
+  min-height: 200px;
+  max-height: 330px;
+  overflow: hidden;
+}
+
+
+ .card .card-title{
+  font-size: 2rem;
 }
 .card .card-action {
+  font-size: 1.3rem;
   border-top: 0;
-  color: grey;
-  padding: 0;
-}
-span .card-action {
   color: white;
-  font-size: .8em;
+  padding: 0 0 5px 10px;
+
+
 }
 
-.card-content .card-action {
-  /*color: grey;*/
-  font-size: .8em;
-  margin-top: 50px;
+.card .card-text .card-body h5{
+  font-size: 1.2rem;
+  text-align: center;
+  padding: 0 10px;
+}
+.card-body .card-action {
+  font-size: .8rem;
+  position:absolute;
+  bottom:2px;
 }
 
-@media (min-width: 600px){
+
+@media (min-width: 600px) {
   .card.horizontal{
     width: 100%;
     display: block;
@@ -39,11 +58,25 @@ span .card-action {
   .card.horizontal .card-image {
       max-width: 100%;
     }
-  /*.card.card-image img{
-    max-width: 100%;
-    width: 100%;
-    display: block;
-    border: 10px solid red;
-  }*/
+  .container{
+    width: 90%;
+  }
+  .card .card-text .card-body h5{
+    padding: 0 10px 20px 10px;
+  }
+
+  #top .card .card-image{
+    max-height: 290px;
+  }
+}
+
+
+
+@media (min-width: 1140px){
+  #top .card .card-image{
+    max-height: auto;
+
+
+  }
 
 }
